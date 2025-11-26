@@ -34,7 +34,7 @@ public class firstLinkedList {
         // }
    
    
-        public static Node swapPairNodeRecursive(Node head) {
+    public static Node swapPairNodeRecursive(Node head) {
     // base case
     if (head == null || head.next == null) {
         return head;
